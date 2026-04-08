@@ -1,0 +1,22 @@
+[
+  {
+    "question": "screen is black",
+    "answer": "Check the power cable."
+  },
+  {
+    "question": "internet connection is not working",
+    "answer": "Check your internet cable."
+  },
+  {
+    "question": "computer slow",
+    "answer": "Close unnecessary programs."
+  },
+  {
+    "question": "computer restart randomly",
+    "answer": "Check your pc temperature."
+  },
+  {
+    "question": "app keep crash",
+    "answer": "Check its requirement."
+  }
+]
