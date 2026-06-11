@@ -50,9 +50,7 @@ c. Configure Environment Variables
 1. Inside the backend/ folder:
 2. Copy .env.example → rename to .env
 3. Fill in your own values (API key, DB credentials, email account)
-
-Example (using powershell/terminal):
-cp backend/.env.example backend/.env
+    Example (Powershell/Terminal): cp backend/.env.example backend/.env
 
 d. Run Backend
 type: cd backend > python app.py
