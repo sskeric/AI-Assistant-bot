@@ -1,22 +1,22 @@
-🤖 Smart-Assist AI Support Bot 
+# 🤖 Smart-Assist AI Support Bot 
 
 A Flask-based AI chatbot designed as a first-line IT support system.
 It provides instant troubleshooting using FAQ matching and AI-powered classification, while automatically logging incidents for review.
 
-✨ Features
-Chat interface (React frontend)
-AI issue classification (Hardware / Software / Network)
-FAQ-based instant troubleshooting
-AI-generated email response (simulation mode)
-Automatic incident logging (JSON format)
-RESTful API (Flask backend)
+# ✨ Features
+* Chat interface (React frontend)
+* AI issue classification (Hardware / Software / Network)
+* FAQ-based instant troubleshooting
+* AI-generated email response (simulation mode)
+* Automatic incident logging (JSON format)
+* RESTful API (Flask backend)
 
 🛠 Tech Stack
-Frontend: React (JavaScript)
-Backend: Flask (Python)
-AI Integration: Google Gemini API
-Data Storage: MySQL + JSON logs
-Version Control: GitHub
++ Frontend: React (JavaScript)
++ Backend: Flask (Python)
++ AI Integration: Google Gemini API
++ Data Storage: MySQL + JSON logs
++ Version Control: GitHub
 
 🔄 System Workflow
 User submits a message
