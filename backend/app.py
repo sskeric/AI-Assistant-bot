@@ -23,7 +23,7 @@ CORS(app)
 # =========================
 client = genai.Client(api_key=os.getenv("GENAI_API_KEY"))
 
-user_id = "local_user4"
+user_id = "local_user4" # put any name you want but if user will have same limit which is spam / request limit
 
 # =========================
 # EMAIL MAP
