@@ -114,7 +114,7 @@ function App() {
 
       // ✅ SUCCESS BANNER ONLY FOR "Other" INPUT
       if (msg === message) {
-        showBanner("success", "✅ Message sent successfully");
+        showBanner("success", "✅ Message successfully sent");
       }
 
       // spam / lock handling (KEEP YOUR LOGIC)
