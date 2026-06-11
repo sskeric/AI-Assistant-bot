@@ -1,7 +1,7 @@
 # 🤖 Smart-Assist AI Support Bot 
-
 A Flask-based AI chatbot designed as a first-line IT support system.
 It provides instant troubleshooting using FAQ matching and AI-powered classification, while automatically logging incidents for review.
+
 
 # ✨ Features
 * Chat interface (React frontend)
@@ -11,12 +11,14 @@ It provides instant troubleshooting using FAQ matching and AI-powered classifica
 * Automatic incident logging (JSON format)
 * RESTful API (Flask backend)
 
+
 # 🛠 Tech Stack
 + Frontend: React (JavaScript)
 + Backend: Flask (Python)
 + AI Integration: Google Gemini API
 + Data Storage: MySQL + JSON logs
 + Version Control: GitHub
+
 
 # 🔄 System Workflow
 1. User submits a message
@@ -26,14 +28,15 @@ It provides instant troubleshooting using FAQ matching and AI-powered classifica
 5. AI generates email response (simulation mode)
 6. Conversation is logged into /incident_logs/
 
+
 # 🔒 Security
 1. API keys and credentials stored in backend/.env (excluded from GitHub)
 2. .env.example provided as a safe template for collaborators
 3. No sensitive credentials exposed in code
 4. Email system runs in simulation mode (no real sending unless configured)
 
-# ⚙️ Setup Instructions
 
+# ⚙️ Setup Instructions
 a. Install Requirements
 Make sure you have installed:
 + Node.js
@@ -58,10 +61,12 @@ d. Run Backend
 e. Run Frontend
 - cd frontend > npm install   # only needed first time > npm start
 
+
 # 📝 Notes
 + If .env is missing → AI features will not work (only FAQ responses available)
 + Emails are simulated unless you configure a real Gmail app password
 + Logs are stored in /incident_logs/ (ignored by Git, safe to delete anytime)
+
 
 # 💡 Example Usage
 Case 1 (AI Processing)  
@@ -77,14 +82,15 @@ Output:
 Answer: Check the power cable
 No AI processing needed
 
-# 🎯 Project Outcome
 
+# 🎯 Project Outcome
 + This project demonstrates:
 + AI integration using external APIs
 + Real-time user interaction via web interface
 + Automated issue classification
 + File-based logging system
 + Full-stack development with React (frontend) and Flask (backend)
+
 
 # Video Demonstration
 
