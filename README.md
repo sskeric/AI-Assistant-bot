@@ -55,18 +55,15 @@ Example (using powershell/terminal):
 cp backend/.env.example backend/.env
 
 d. Run Backend
-cd backend python app.py
+cd backend > python app.py
 
 e. Run Frontend
-
-cd frontend
-npm install   # only needed first time
-npm start
+cd frontend > npm install   # only needed first time > npm start
 
 # 📝 Notes
-If .env is missing → AI features will not work (only FAQ responses available)
-Emails are simulated unless you configure a real Gmail app password
-Logs are stored in /incident_logs/ (ignored by Git, safe to delete anytime)
++ If .env is missing → AI features will not work (only FAQ responses available)
++ Emails are simulated unless you configure a real Gmail app password
++ Logs are stored in /incident_logs/ (ignored by Git, safe to delete anytime)
 
 # 💡 Example Usage
 Case 1 (AI Processing)  
@@ -89,8 +86,7 @@ No AI processing needed
 + Real-time user interaction via web interface
 + Automated issue classification
 + File-based logging system
-+ 
-Full-stack development with React (frontend) and Flask (backend)
++ Full-stack development with React (frontend) and Flask (backend)
 
 # Video Demonstration
 
