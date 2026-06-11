@@ -55,10 +55,10 @@ Example (using powershell/terminal):
 cp backend/.env.example backend/.env
 
 d. Run Backend
-cd backend > python app.py
+type: cd backend > python app.py
 
 e. Run Frontend
-cd frontend > npm install   # only needed first time > npm start
+type: cd frontend > npm install   # only needed first time > npm start
 
 # 📝 Notes
 + If .env is missing → AI features will not work (only FAQ responses available)
