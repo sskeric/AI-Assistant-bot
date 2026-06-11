@@ -53,10 +53,10 @@ c. Configure Environment Variables
     Example (Powershell/Terminal): cp backend/.env.example backend/.env
 
 d. Run Backend
-type: cd backend > python app.py
+- cd backend > python app.py
 
 e. Run Frontend
-type: cd frontend > npm install   # only needed first time > npm start
+- cd frontend > npm install   # only needed first time > npm start
 
 # 📝 Notes
 + If .env is missing → AI features will not work (only FAQ responses available)
