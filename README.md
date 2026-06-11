@@ -21,7 +21,7 @@ It provides instant troubleshooting using FAQ matching and AI-powered classifica
 
 
 # 🔄 System Workflow
-1. User submits a message
+1. User submits a message (create a user from this code "user_id = "exampleabc_user")
 2. System checks FAQ database
 3. If match → return predefined solution
 4. If no match → AI classifies issue (Hardware / Software / Network)
