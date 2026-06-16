@@ -1,3 +1,6 @@
+# Video Demonstration
+https://youtu.be/_Gsym3Gxlv4
+
 # 🤖 Smart-Assist AI Support Bot 
 A Flask-based AI chatbot designed as a first-line IT support system.
 It provides instant troubleshooting using FAQ matching and AI-powered classification, while automatically logging incidents for review.
@@ -90,9 +93,3 @@ No AI processing needed
 + Automated issue classification
 + File-based logging system
 + Full-stack development with React (frontend) and Flask (backend)
-
-
-# Video Demonstration
-https://youtu.be/_Gsym3Gxlv4
-
-
