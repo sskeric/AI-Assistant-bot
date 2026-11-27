@@ -1,22 +1,22 @@
 [
   {
-    "question": "screen is black",
-    "answer": "Check the power cable."
+    "question": "Black screen",
+    "answer": "Check the power cable and monitor connection."
   },
   {
-    "question": "internet connection is not working",
-    "answer": "Check your internet cable."
+    "question": "No internet",
+    "answer": "Check the Wi-Fi connection and restart the router if appropriate."
   },
   {
-    "question": "computer slow",
-    "answer": "Close unnecessary programs."
+    "question": "Laptop overheating",
+    "answer": "Check the ventilation and close unnecessary applications."
   },
   {
-    "question": "computer restart randomly",
-    "answer": "Check your pc temperature."
+    "question": "Application not responding",
+    "answer": "Wait briefly, then restart the application if safe."
   },
   {
-    "question": "app keep crash",
-    "answer": "Check its requirement."
+    "question": "Computer not turning on ",
+    "answer": "Check the power supply and charging connection."
   }
 ]
