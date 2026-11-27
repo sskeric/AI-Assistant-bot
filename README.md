@@ -74,7 +74,6 @@ e. Run Frontend
 # 💡 Example Usage
 Case 1 (AI Processing)  
 Input: My laptop is overheating
-
 Workflow:
 No suitable FAQ match found
 - AI classifies the issue
@@ -90,8 +89,7 @@ Workflow:
 - Result: Check the power cable and monitor connection.
 
 
-# 🎯 Project Outcome
-+ This project demonstrates:
+# 🎯 Project Outcome/Demostrate
 + Semantic FAQ matching
 + AI-assisted IT incident classification
 + Automated support email generation
