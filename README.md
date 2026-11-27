@@ -24,12 +24,12 @@ It provides instant troubleshooting using FAQ matching and AI-powered classifica
 
 
 # 🔄 System Workflow
-1. User submits a message (create a user from this code "user_id = "exampleabc_user")
-2. System checks FAQ database
-3. If match → return predefined solution
-4. If no match → AI classifies issue (Hardware / Software / Network)
+1. User submits an IT support request. The system associates the request with the current application user.
+2. System performs FAQ matching using the available FAQ knowledge base.
+3. If a relevant FAQ is found, the corresponding solution is returned.
+4. If no suitable FAQ is identified, AI is used to classify the issue and generate support assistance.
 5. AI generates email response (simulation mode)
-6. Conversation is logged into /incident_logs/
+6. Incident information may be recorded according to the application's logging configuration.
 
 
 # 🔒 Security
@@ -73,23 +73,28 @@ e. Run Frontend
 
 # 💡 Example Usage
 Case 1 (AI Processing)  
-Input: My laptop is overheating  
-Output:
-Classified as: Hardware
-AI-generated email response
-Log file created
+Input: My laptop is overheating
+
+Workflow:
+No suitable FAQ match found
+- AI classifies the issue
+- Support email draft generated
+- Incident report created
+- Result: Category = Hardware
 
 Case 2 (FAQ Matching)  
 Input: screen is black  
-Output:
-Answer: Check the power cable
-No AI processing needed
+Workflow:
+- FAQ match identified
+- Predefined troubleshooting solution returned
+- Result: Check the power cable and monitor connection.
 
 
 # 🎯 Project Outcome
 + This project demonstrates:
-+ AI integration using external APIs
-+ Real-time user interaction via web interface
-+ Automated issue classification
-+ File-based logging system
-+ Full-stack development with React (frontend) and Flask (backend)
++ Semantic FAQ matching
++ AI-assisted IT incident classification
++ Automated support email generation
++ Incident tracking and logging
++ Full-stack application development using React (frontend) and Flask (backend)
++ Integration with Google Gemini API
