@@ -1,3 +1,4 @@
+---
 name: smart-assist-it-support
 description: An educational AI-powered IT support assistant that helps users troubleshoot common hardware, software, and network issues. It matches user queries with predefined FAQs, classifies IT incidents, generates support email drafts, and records incident reports.
 summary: AI-powered first-line IT support and incident management.
