@@ -154,8 +154,7 @@ Do not provide any further troubleshooting instructions that could potentially d
 
 [Display the relevant incident information in a structured format.]
 
-All submitted user messages are recorded in the local incident log directory on the user's PC, according to the application's logging functionality.
-
+If connected to the Smart-Assist application, user messages and incident information may be recorded according to the application's configured logging functionality.
 
 ## 5. Safety and Limitations
 
@@ -176,7 +175,7 @@ All submitted user messages are recorded in the local incident log directory on 
 - Prioritise predefined FAQ solutions whenever a matching entry is found.
 - Provide an appropriate issue classification when AI processing is required.
 - Avoid making assumptions about the cause of an issue.
-- Contacting the IT support team based on their working office hour.
+- Suggest contacting the IT support team during official support hours when appropriate.
 
 ## 7. Project Background
 
