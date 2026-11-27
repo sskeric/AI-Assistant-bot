@@ -77,7 +77,7 @@ Input: My laptop is overheating
 Workflow:
 No suitable FAQ match found
 - AI classifies the issue
-- Support email draft generated
+- Support email generated and sent to the configured support team.
 - Incident report created
 - Result: Category = Hardware
 
